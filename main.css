@@ -1,0 +1,107 @@
+body{
+    direction: rtl;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    background-color: aquamarine;
+}
+#header a{
+    display: inline-block;
+}
+#header div{
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+}
+#main-menu ul{
+    display: flex;
+    margin-top: 35px;
+    text-align: center;
+    list-style-type: none;
+}
+#main-menu ul li{
+    display: inline-block;
+    width: 30%;
+}
+#main-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#banner{
+    text-align: center;
+}
+#about{
+    display: flex;
+}
+#about img{
+    width: 40%;
+    display: inline-block;
+}
+#about p{
+    display: inline-block;
+    width: 50%;
+    margin-top: 70px;
+    font-weight: bold;
+    padding: 50px;
+}
+#footer{
+    background-color: aquamarine;
+    display: flex;
+}
+#footer ul{
+    display: inline-block;
+    width: 50%;
+    list-style-type: none;
+}
+#footer img{
+    display: inline-block;
+    width: 50%;
+    height: 600px;
+}
+#footer ul li{
+    margin-top: 80px;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.gallery{
+    display:flex;
+    justify-content: center;
+}
+.gallery_item{
+    display: inline-block;
+    width: 20%;
+}
+.gallery_item img{
+    width: 100%;
+}
+textarea {
+    text-align: center;
+}
+body {
+    background-color:fuchsia;
+    display: inline-block;
+    font-family: tahoma;
+    font-size: 100%;
+}
+.member {
+    display: inline-block;
+    background-color: chartreuse;
+    text-align: center;
+    margin: 130px 80px;
+    padding: 10px;
+}
+.container {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border: dotted red;
+}
